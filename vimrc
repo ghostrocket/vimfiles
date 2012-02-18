@@ -4,6 +4,10 @@ set nocompatible
 
 "ghostrocket customizations
 colorscheme wombat
+nmap <F7> :NERDTree<CR>
+nmap <F8> :TagbarToggle<CR>
+autocmd VimEnter * TagbarToggle
+autocmd VimEnter * NERDTree
 
 "activate pathogen
 call pathogen#runtime_append_all_bundles()

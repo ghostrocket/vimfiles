@@ -79,9 +79,6 @@
 [submodule "bundle/vim-django-support"]
 	path = bundle/vim-django-support
 	url = https://github.com/vim-scripts/vim-django-support.git
-[submodule "bundle/conque-shell"]
-	path = bundle/conque-shell
-	url = https://github.com/vim-scripts/Conque-Shell.git
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar
