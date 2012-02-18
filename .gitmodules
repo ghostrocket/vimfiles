@@ -79,3 +79,6 @@
 [submodule "bundle/unimpaired"]
 	path = bundle/unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
+[submodule "bundle/vim-django-support"]
+	path = bundle/vim-django-support
+	url = https://github.com/vim-scripts/vim-django-support.git

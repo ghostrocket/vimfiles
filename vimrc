@@ -2,6 +2,8 @@
 "This must be first, because it changes other options as a side effect.
 set nocompatible
 
+colorscheme wombat
+
 "activate pathogen
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
