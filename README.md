@@ -31,5 +31,6 @@ Make sure vim finds the vimrc file by either symlinking it:
 or by sourcing it from  your own ~/.vimrc:
 `source ~/.vim/vimrc`
 
-the tags bundle requires ctags
-`brew install ctags`
+Dependencies
+============
+the TagBar bundle requires ctags: `brew install ctags`
