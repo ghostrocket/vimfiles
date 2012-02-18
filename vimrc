@@ -9,6 +9,7 @@ nmap <F8> :TagbarToggle<CR>
 autocmd VimEnter * TagbarToggle
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
+let g:ConqueTerm_InsertOnEnter = 0
 
 "activate pathogen
 call pathogen#runtime_append_all_bundles()
