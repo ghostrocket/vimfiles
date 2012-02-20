@@ -16,21 +16,21 @@ This is my ~/.vim dir and _this_, dear reader, is a horse:
          }}}`                            \                  HIM-HIM-HIM!!!  /
                                           '--------------------------------'
 
-Installation
-============
+# Installation
 
 Clone the repo:
 `git clone https://github.com/ghostrocket/vimfiles.git ~/.vim`
 
 Grab the plugin submodules:
-`cd ~/.vim && git submodule init && git submodule update`
+`cd ~/.vim && git submodule update --init`
 
-Make sure vim finds the vimrc file by either symlinking it:
+Make sure vim finds the vimrc file by symlinking it:
 `ln -s ~/.vim/vimrc ~/.vimrc`
 
-or by sourcing it from  your own ~/.vimrc:
-`source ~/.vim/vimrc`
+# Dependencies
 
-Dependencies
-============
-the TagBar bundle requires ctags: `brew install ctags`
+The TagBar bundle requires ctags:
+`brew install ctags`
+
+The JSLint bundle requires node:
+`brew install node`
