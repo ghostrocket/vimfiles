@@ -94,6 +94,3 @@
 [submodule "bundle/vim-pyflakes"]
 	path = bundle/vim-pyflakes
 	url = https://github.com/kevinw/pyflakes-vim.git
-[submodule "vim-markdown"]
-	path = vim-markdown
-	url = https://github.com/hallison/vim-markdown.git
