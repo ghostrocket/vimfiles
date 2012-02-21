@@ -10,6 +10,7 @@ autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
 let g:ConqueTerm_InsertOnEnter = 0
 let $JS_CMD='node'
+set nowrap
 
 "activate pathogen
 call pathogen#runtime_append_all_bundles()
