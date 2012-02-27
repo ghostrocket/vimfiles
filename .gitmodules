@@ -85,6 +85,3 @@
 [submodule "bundle/vim-node"]
 	path = bundle/vim-node
 	url = https://github.com/vim-scripts/node.js.git
-[submodule "bundle/vim-jslint"]
-	path = bundle/vim-jslint
-	url = https://github.com/vim-scripts/jslint.vim.git
