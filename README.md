@@ -35,6 +35,7 @@ The TagBar bundle requires ctags:
 The Syntastic module requires appropriate checkers on your path:
 
 Node has JSLint `brew install node`
+
 Install Pyflakes for python `pip install pyflakes`
 
 
