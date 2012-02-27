@@ -32,5 +32,9 @@ Make sure vim finds the vimrc file by symlinking it:
 The TagBar bundle requires ctags:
 `brew install ctags`
 
-The JSLint bundle requires node:
-`brew install node`
+The Syntastic module requires appropriate checkers on your path:
+
+Node has JSLint `brew install node`
+Install Pyflakes for python `pip install pyflakes`
+
+
